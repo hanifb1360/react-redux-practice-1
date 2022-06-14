@@ -7,7 +7,7 @@ function Login() {
     <div>
       <button
         onClick={() => {
-          dispatch(login({ name: "", age: 0, email: "" }));
+          dispatch(login({ name: "hanif", age: 40, email: "hanif.bahari@gmail.com" }));
         }}
       >
         Login
